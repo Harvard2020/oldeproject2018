@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<Html>  
+<head>   <title>Registration Page</title> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+	    
+	 <style>
+		 .error {
+  			border: 1px #f00;
+  			background-color: #fdd;
+ 			 &--serious {
+    			@extend .error;
+    			border-width: 3px;
+  				}
+			}
+		
+			.error:hover {
+  			background-color: #fee;
+			}
+
+			.error--serious {
+  			@extend .error;
+  			border-width: 3px;
+			}
+		.alert:hover, %strong-alert {
+  			font-weight: bold;
+				}
+
+			%strong-alert:hover {
+  			color: red;
+				}
+	  	.banner {
+  		width: 100%;
+ 		height: auto;
+  		background:#4A9AF4;
+  		font-size: 0;
+  		position:fixed;
+  		text-align: center;
+		margin-right:20px;
+		
+		}
+		
+		p {
+    		color: white;
+    			font-weight: bold;
+    				text-align: justify;
+    					font-size: 25px;
+    				margin-left: 25px;
+    			margin-right: 25px;
+		text-align: center;
+   	} 
+		.banner:hover {
+    			background: #448CDD;
+	)
+	 
+	 
+				 @media (min-width: 500px) {
+             							 p::before {
+                 							content: "Local and global COVID-19 update";
+                }
+          }
+           			@media (max-width: 499px) {
+              							p::before {
+                 									content: "COVID-19 Update";
+                }
+          }
+	 	.container {
+				position: fixed;
+					height: auto;
+						display: inline-table;
+								width: 100%;
+									margin-top: 20px;
+										Margin-left: 0px;
+									color: white;
+		}
+			.btn {
+					display: inline-table;
+							text-align: center;
+									font-weight: bold;
+											grid-raw-gap: 10px;
+										background-color: #448CDD;
+  									color: white;
+  								font-size: 25px;
+  							padding: 5px;
+  						cursor: pointer;
+								Margin-left: 10px;
+										margin-right: 10px 
+  												border-radius: 5px;
+										Margin-top: 20px;
+		}
+				.container .btn {
+						display: inline-table;
+								text-align: center;
+										font-weight: bold;
+												grid-raw-gap: 10px;
+										background-color: #448CDD;
+  										color: white;
+  									font-size: 25px;
+  								padding: 10px;
+  						cursor: pointer;
+								Margin-left: 10px;
+										margin-right: 10px 
+  												border-radius: 5px;
+										Margin-top: 20px;
+		}
+				.container .btn a {
+						display: inline-table;
+								text-align: center;
+										font-weight: bold;
+												font-size: 25px;
+											color: white;
+										grid-column-gap: 10px;
+            								grid-row-gap: 10px;
+  								padding: 10px;
+  							cursor: pointer;	
+  									border-radius: 10px;
+										Margin-top: 20px;
+												Margin-left: 20px;	
+		}
+			.container .btn: hover {
+  					background-color: #448CDD;
+		}
+			.btn: hover {
+  					background-color: #448CDD;
+		}
+		
+			.row {
+				margin left: 0px;
+						margin-right: 0px;
+								Margin-top: 20px;
+										padding: 5px;
+		}
+			.row: hover {
+  					background-color: #448CDD;
+			}
+	.col-lg-3 {
+		color: #4A9AF4;
+		display: inline-table;
+		font-weight: bold;
+		padding: 5px;
+		text-align: center;
+		font-size: 20px;
+		margin-right: 0px;
+		Margin-left:0px;
+  		cursor: pointer;
+		Margin-top: 20px;
+		
+		}
+		.col-sm-3 {
+		color: #4A9AF4;
+		display: inline-table;
+		font-weight: bold;
+		padding: 5px;
+		text-align: center;
+		font-size: 20px;
+		Margin-left:0px;
+  		cursor: pointer;
+		Margin-top: 20px;
+		margin-right: 0px;
+		}
+		
+		.col-lg-3: hover {
+  		background-color: green;
+		}
+		.col-sm-3: hover {
+  		background-color: green;
+		}
+		
+		
+		.grid {
+            	disply: grid;
+            	padding: 20px;
+            	grid-column-gap: 20px;
+            	grid-raw-gap: 10px;
+            	grid-template-columns: 200px, 200px, 200px, 200px;
+		margin-right: 5px;
+		margin-left: 20px;
+		margin-right: 10px 
+            }
+		.grid-item {
+            	disply: grid;
+            	padding: 20px;
+            	grid-column-gap: 20px;
+            	grid-row-gap: 20px;
+            	grid-template-columns: 200px, 200px, 200px, 200px;
+           	text-align: center;
+		margin-right: 10px;
+		margin-left: 20px;
+		font-size= 30px;
+         
+         a :: before {
+            	content: "last name";
+		margin-left: 20px;
+            	font-weight: bold;
+            }
+            a :: before {
+            	content: "First name";
+		margin-left: 20px;
+            	font-weight: bold;
+            }
+        .table {
+		font-family : Helvetica;
+		font-size : 100%;
+  		font-weight: bold;
+	}
+ 	
+	h1 {
+	color: white;
+        font-weight: blod;
+        text-align: center;
+        color: blue;
+	padding-top: 20%;
+	padding-bottom: 0;
+        font-family: arial, sans-sherif;
+        font-size: 24px;
+	Margin-left: 30px;
+	margin-right: 20px; 
+		}
+	
+	h2 {
+	color: black;
+        font-weight: blod;
+        text-align: center;
+        color: blue;
+	padding-top: 20px;
+	padding-bottom: 0;
+        font-family: arial, sans-sherif;
+        font-size: 24px;
+	Margin-left: 20px;
+	margin-right: 20px; 
+		}
+	h3 {
+   	color: white;
+   	font-weight: blod;
+        text-align: center;
+        Margin-top: 200px;
+        font-family: arial, sans-sherif;
+	Margin-left: 30px;
+	margin-right: 20px; 
+        }
+        }
+      
+ 	.button {
+            		witdh: 200px;
+            			height: 50px;
+            				font-size: 24px;
+            					background-color: #4A9AF4;
+								 margin-left: 20px;
+					margin-top: 200px;
+         }
+     	.button: hover {
+           		 background-color: orange;
+         }
+		
+        .label {
+	          font-family : Helvetica;
+	          		font-size : 100%;
+           					font-weight: bold;
+         }
+ 	
+ }
+	 label {
+		color: black;
+   		font-family: Arial;
+		font-weight: bold;
+		font-size: 16;
+	 }
+	 input[type=text] {
+		   background-color: #4A9AF4;
+	    }
+           input[type=number] {
+		   background-color: blue;
+	    }
+	form {
+		margin-top: 150px;
+		margin-left: 20px;
+			}
+</style>
+</head>  
+<body>
+	<div class="banner">
+		
+		<p> New Members could register for the COVID-19 newsletter <p>
+		<h3> Create your Login </h2>
+		
+		<div class "container">
+        		<div class="btn">
+				<a href="https://harvard2020.github.io/project0/"  <button class="btn">Home</button></a></div>
+			<div class="btn">
+				<a href="https://harvard2020.github.io/Abou-us/"  <button class="btn">About us</a></div>
+			<div class="btn">
+				<a href="https://harvard2020.github.io/Login/"  <button class="btn">Login</a></div>	
+			<div class="btn">
+				<a href="https://harvard2020.github.io/Registration/"  <button class="btn">Registration</a></div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<body bgcolor="#4A9AF4"> 
+	
+<br>  <br>  
+<form>  
+  <label> Firstname </label>         
+       <input type="text" name="firstname" size="15"/> <br> <br>  
+  <label> Middlename: </label>     
+      <input type="text" name="middlename" size="15"/> <br> <br>  
+  <label> Lastname: </label>         
+       <input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   Select your interest:  </label>   
+<select>  
+<option value="Area of Interest">Area of Interest</option>  
+<option value="Global">Global </option>  
+<option value="Science news">Science news</option>  
+<option value="Media news">Media news</option>    
+<option value="Pharma">Pharma</option>  
+<option value="People">People</option>  
+<option value="Vision">Vision</option>  
+</select>  
+  
+<br>  <br>  
+<label>   Gender :  </label><br>  
+      <input type="radio" name="male"/> Male <br>  
+      <input type="radio" name="female"/> Female <br>  
+      <input type="radio" name="other"/> Other   
+<br>  <br>   
+<label>   
+      Phone :  
+</label>  
+      <input type="text" name="country code"  value="+1" size="2"/>   
+      <input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+  <textarea cols="80" rows="5" value="address">  </textarea>  
+<br> <br>  
+Email:  
+      <input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+      <input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+      <input type="Password" id="repass" name="repass"> <br> <br>  
+      <input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
